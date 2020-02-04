@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+  margin: 0;
+}
+
+.carousel-wrapper {
+  position: relative;
+}
+
+.blind {
+  height: 675px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #c4cdd6;
+  transition: opacity .2s ease-out;
+}
+
+.blind.hide {
+  opacity: 0;
+}
+
+.blind-button {
+  width: 249px;
+  height: 45px;
+  border: none;
+  border-radius: 3px;
+  background-color: #ff891e;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.blind-button:hover {
+  background-color: #c45d00;
+}
+
+.carousel-block {
+  height: 675px;
+  background: url('../images/slider_1.jpg');
+  text-align: center;
+}
