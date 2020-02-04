@@ -9,7 +9,7 @@ body {
 }
 
 .blind {
-  height: 505px;
+  height: 507px;
   position: absolute;
   left: 0;
   top: 0;
@@ -46,4 +46,125 @@ body {
 
 .carousel-indicators {
   z-index: 1;
+}
+
+.carousel-indicators li {
+  width: 274px;
+  height: 67px;
+  display: block;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.15);
+  text-indent: 0px;
+  opacity: 1;
+}
+
+.carousel-indicators .active {
+  border: 1px solid rgba(0, 0, 0, 0.44);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-indicators-big {
+  display: flex;
+} 
+
+.carousel-indicators-image { 
+  width: 48px;
+  height: 54px;
+  margin: 6px;
+}
+
+.carousel-indicators-image img {
+  border-radius: 3px;
+}
+
+.carousel-indicators-caption {
+  width: 187px;
+  height: 40px;
+  margin: 6px 3px;
+  display: block;
+  color: #ffffff;
+}
+
+.carousel-indicators-title {
+  margin: 0;
+  padding: 0;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.carousel-indicators-description {
+  font-size: 12px;
+  font-weight: 700;
+  text-shadow: 0 1px 1px rgba(2, 2, 2, 0.2);
+}
+
+.carousel-caption {
+  width: 600px;
+  position: absolute;
+  right: 0%;
+  bottom: 25%;
+  left: 50%;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  text-align: left;
+}
+
+.carousel-caption-title {
+  font-size: 42px;
+  line-height: 42px;
+}
+
+.carousel-caption-description {
+  font-size: 26px;
+}
+
+.carousel-link {
+  width: 155px; 
+  height: 45px;
+  display: inline-block;
+  padding-top: 9px;
+  border-radius: 3px;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.carousel-link:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.carousel-link-more {
+  margin-right: 22px;
+  background-color: #ff891e;
+  border: 1px solid transparent;
+  color: #ffffff;
+}
+
+.carousel-link-more:hover {
+  color: #ffffff;
+}
+
+.carousel-link-all-actions {
+  background-color: transparent;
+  border: 1px solid #212121;
+  color: #000000;
+}
+
+.carousel-link-all-actions:hover {
+  color: #000000;
+}
+
+.carousel-control {
+  width: 77px;
+  height: 85px;
+  top: 50%;
+  background-color: #000000;
+  opacity: 0.1;
+}
+
+.carousel-control:hover {
+  opacity: 0.3;
 }
