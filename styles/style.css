@@ -9,7 +9,7 @@ body {
 }
 
 .blind {
-  height: 675px;
+  height: 505px;
   position: absolute;
   left: 0;
   top: 0;
@@ -17,6 +17,7 @@ body {
   bottom: 0;
   background-color: #c4cdd6;
   transition: opacity .2s ease-out;
+  z-index: 2;
 }
 
 .blind.hide {
@@ -39,8 +40,10 @@ body {
   background-color: #c45d00;
 }
 
-.carousel-block {
-  height: 675px;
-  background: url('../images/slider_1.jpg');
-  text-align: center;
+.carousel-item, .carousel-control-prev, .carousel-control-next {
+  z-index: 0;
+}
+
+.carousel-indicators {
+  z-index: 1;
 }
